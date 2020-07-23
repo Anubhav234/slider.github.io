@@ -1,0 +1,82 @@
+
+h2{
+    float:right;
+    position: static;
+    border: 3px solid #73AD21;
+  }
+  .left{
+    float:right;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 350px;
+    margin-left: 200px;
+    color:grey
+    
+  }
+  .para{
+    color:black;
+    font-size: xx-large;
+    margin-top: 100px;
+  }
+  .para2{
+    font-size:1.1em; line-height:2.2em; margin-bottom:2.2em;
+  }
+  .btn{
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    width:150px;
+    height:50px
+  }
+    
+  
+  .card__images{
+    background-image:url(pic5.webp);
+    width:150px;
+    padding:5rem;
+    animation:slide 20s infinite;
+    
+  }
+  @keyframes slide{
+    35%{
+
+      background-image:url(pic5.webp)
+    }
+    50%{
+
+      background-image:url(pic3.webp)
+    }
+    75%{
+
+      background-image:url(pic5.webp)
+    }
+  }
+  .img{
+    background-image:url(pic3.webp);
+    width:500px;
+      height:300px;
+       box-shadow:20px 20px 50px grey;  
+       animation:slide 20s infinite;
+       
+  }
+  @keyframes slide{
+    25%{
+
+      background-image:url(pic3.webp)
+    }
+    60%{
+
+      background-image:url(pic4.webp)
+    }
+    75%{
+
+      background-image:url(pic6.webp)
+    }
+  }
+
+  .abv{
+    float:right;
+    position: static;
+    border: 3px solid #73AD21;
+  }
